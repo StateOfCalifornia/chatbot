@@ -32,7 +32,7 @@ const server = http.createServer((req, res) => {
           const res = await fetch('https://directline.botframework.com/v3/directline/tokens/generate', {
             method: 'POST',
             headers: {
-              Authorization: 'Bearer Q_GMelJRAKc.kG0B3_QfYfYdJihyue27Jf3ug42c-1uRdtjUxw3RGMg',
+              Authorization: 'PUT TOKEN HERE',
               'Content-Type': 'application/json'
             }
           });
@@ -65,7 +65,7 @@ const server = http.createServer((req, res) => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: 'Bearer Q_GMelJRAKc.kG0B3_QfYfYdJihyue27Jf3ug42c-1uRdtjUxw3RGMg'
+          Authorization: 'PUT TOKEN HERE'
         },
         body
       };
