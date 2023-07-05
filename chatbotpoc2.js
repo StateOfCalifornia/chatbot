@@ -70,7 +70,7 @@ const server = http.createServer((req, res) => {
         body
       };
 
-      fetch('https://cdt-testbot.azurewebsites.net/api/messages', options)
+      fetch('PUT AZURE CLOUD URL HERE', options)
         .then(res => res.json())
         .then(data => {
           res.writeHead(200, { 'Content-Type': 'application/json' });
